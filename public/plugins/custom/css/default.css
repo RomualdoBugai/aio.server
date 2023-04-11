@@ -1,0 +1,35 @@
+
+	tr td:first-child {
+		width: 200px;
+		border-right: dashed 1px #eee
+	}
+
+	pre {
+		border: dashed 1px #ccc;
+		margin: 5px 0;
+		padding: 10px;
+		font-size: 10px;
+		background: #fafafa
+	}
+
+	pre:before {
+		content: "debugging: ";
+		padding: 10px;
+		font-size: 10px;
+		border-right: dashed 1px #ccc;
+		margin-right: 10px;
+		clear: both;
+		width: 100%;
+	}
+
+	table.userdata .icon-pencil-2 {
+		color: #aaa
+	}
+
+	table.userdata tr td:first-child {
+		width: 20px !important;
+	}
+
+	table.userdata tr td:last-child {
+		width: 70% !important;
+	}

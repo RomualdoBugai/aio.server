@@ -1,0 +1,14 @@
+[data-app="flash"] {
+    height: auto;
+    position: fixed !important;
+    z-index: 100000 !important;
+    top: 10px !important;
+    right: 10px !important;
+    display: none;
+    max-width: 300px;
+}
+
+[data-app="flash"] [data-content] {
+    margin-left: 10px;
+    padding: 5px;
+}

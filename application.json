@@ -1,0 +1,77 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+
+    "default": {
+        "database": {
+            "driver": "pgsql",
+            "connection": {
+                "driver"    : "pgsql",
+                "host"      : "localhost",
+                "port"      : "5432",
+                "username"  : "postgres",
+                "password"  : "mp@1nf0rm4t1c4",
+                "database"  : "log.mpa.dev",
+                "charset"   : "utf8",
+                "prefix"    : "",
+                "schema"    : "public",
+                "sslmode"   : "prefer"
+            }
+        }
+    },
+
+    "database": {
+        "development": {
+            "lognfse": {
+                "driver"    : "pgsql",
+                "host"      : "localhost",
+                "port"      : "5432",
+                "username"  : "postgres",
+                "password"  : "mp@1nf0rm4t1c4",
+                "database"  : "log.mpa.dev",
+                "charset"   : "utf8",
+                "prefix"    : "",
+                "schema"    : "public",
+                "sslmode"   : "prefer"
+            },
+            "logfiscal": {
+                "driver"    : "pgsql",
+                "host"      : "localhost",
+                "port"      : "5432",
+                "username"  : "postgres",
+                "password"  : "mp@1nf0rm4t1c4",
+                "database"  : "log.mpa.dev",
+                "charset"   : "utf8",
+                "prefix"    : "",
+                "schema"    : "public",
+                "sslmode"   : "prefer"
+            }
+        },
+        "production": {
+            "lognfse": {
+                "driver"    : "pgsql",
+                "host"      : "localhost",
+                "port"      : "5432",
+                "username"  : "postgres",
+                "password"  : "mp@1nf0rm4t1c4",
+                "database"  : "log.mpa.master",
+                "charset"   : "utf8",
+                "prefix"    : "",
+                "schema"    : "public",
+                "sslmode"   : "prefer"
+            },
+            "logfiscal": {
+                "driver"    : "pgsql",
+                "host"      : "localhost",
+                "port"      : "5432",
+                "username"  : "postgres",
+                "password"  : "mp@1nf0rm4t1c4",
+                "database"  : "log.mpa.master",
+                "charset"   : "utf8",
+                "prefix"    : "",
+                "schema"    : "public",
+                "sslmode"   : "prefer"
+            }
+        }
+    }
+}

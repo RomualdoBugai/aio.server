@@ -1,0 +1,869 @@
+{
+    "address": {
+        "form": {
+            "attributes": {
+                "street": "rua",
+                "district": "bairro",
+                "city": "cidade",
+                "country": "país",
+                "country_id": "país",
+                "number": "número",
+                "state": "estado",
+                "complement": "complemento",
+                "postal_code": "cep"
+            },
+            "submit": "gravar"
+        },
+        "title": "endereço",
+        "add": "adicionar novo endereço",
+        "edit": "editar endereço",
+        "created": "endereço cadastrado"
+    },
+    "api": {
+        "service-not-found": "serviço :service não encontrado",
+        "app-not-found": "aplicativo :app não encontrado",
+        "version-unavailable": "versão :version indisponível",
+        "request-method-not-allowed": "método de solicitação não permitido"
+    },
+    "app": {
+        "edit": "alterar configurações do aplicativo",
+        "support": {
+            "user-already-exists": "usuário já existe",
+            "created": "registrado"
+        }
+    },
+    "attachment": {
+        "created": "anexo criado",
+        "updated": "anexo atualizado",
+        "total-found": "arquivo(s) encontrados :total ",
+        "form": {
+            "submit": "adicionar anexo"
+        },
+        "post": "adicionar anexo",
+        "placeholder": "adicione um anexo aqui..."
+    },
+    "auth": {
+        "invalid-password": "senha inválida",
+        "email-not-found": "e-mail :email não encontrado",
+        "come-back-soon": "volte novamente",
+        "user-not-found": "usuário não encontrado",
+        "email-send": "e-mail enviado com sucesso",
+        "not-used": "não usado",
+        "user-enable": "o usuário foi habilitado com sucesso",
+        "user-not-disabled": "o usuário não está desabilitado",
+        "user-already-disabled": "o usuário já está desabilitado",
+        "user-found": "usuário não encontrado",
+        "email-not-confirmed": "e-mail :email não confirmado",
+        "email-confirmed": "e-mail :email confirmado com sucesso",
+        "email-has-confirmed": "e-mail :email confirmado",
+        "check-your-email": "um e-mail de confirmação de registro foi enviado, verifique sua caixa de mensagens",
+        "user-app-not-allowed": "usuário não habilitado no aplicativo"
+    },
+    "en": {
+        "row-found": ":total row found|:total rows found",
+        "table-has-empty": "a tabela ':table' está vazia",
+        "done": "feito",
+        "success": "sucesso",
+        "fail": "erro, tente novamente",
+
+
+        "email-found": "e-mail encontrado",
+        "email-available": "e-mail :email disponível",
+        "email-exists": "e-mail existente",
+        "welcome": "bem vindo",
+        "blocked-account": "conta bloqueada",
+
+        "no-user-active-session": "usuário sem sessão ativa",
+        "email-has-used-by-other": "e-mail está sendo usado por outro",
+        "invalid-encryption": "senha inválida",
+        "email-unavailable": "e-mail não disponível",
+        "user-not-found": "usuário não encontrado",
+        "email-send": "e-mail enviado com sucesso",
+        "not-used": "não usado",
+        "user-enable": "o usuário foi habilitado com sucesso",
+        "user-not-disabled": "o usuário não está desabilitado",
+        "user-already-disabled": "o usuário já está desabilitado",
+        "user-found": "usuário não encontrado",
+        "email-not-confirmed": "e-mail :email não confirmado",
+        "email-confirmed": "e-mail :email has confimed successfully",
+        "email-has-confirmed": "e-mail :email está confirmado",
+        "check-your-email": "um e-mail de confirmação de registro foi enviado, verifique sua caixa de mensagens",
+        "enterprise-found": "empresa encontrada",
+        "enterprise-created": "empresa criada com sucesso",
+        "enterprise-updated": "empresa atualizada com sucesso",
+        "enterprise-enabled": "empresa habilitada com sucesso",
+        "enterprise-disabled": "empresa desabilitada com sucesso",
+        "certificate-not-found": "Certificado não encontrado",
+        "country-not-allowed": "país não habilitado",
+        "enterprise-not-found": "empresa não encontrada",
+        "certificate-send": "certificado enviado",
+        "national-code-not-have-certificate": "Esse CNPJ não possui certificado",
+        "certificate-not-found-national-code": "Certificado não encontrado pelo CNPJ",
+        "certificate-found": "certificado encontrado|certificados encontrados",
+        "certificate-already-exists": "O certificado já está cadastrado no sistema",
+        "pending-request": "existe um pedido pendente",
+        "request-expired": "pedido expirado",
+        "person-not-found": "pessoa não encontrada",
+        "error": "ocorreu um erro, tente novamente",
+        "password-changed-successful": "senha trocada com sucesso",
+        "not-found": "nome :name não encontrado",
+        "found": "nome :name encontrado",
+        "support": "suporte",
+        "help": "ajuda",
+        "undefined": "indefinido",
+        "bug": "bug",
+        "improvement": "melhoria",
+        "infrastructure": "infraestrutura",
+        "implantation": "implantação",
+        "request-open-successful": "um ticket foi aberto pelo seu pedido. Por favor, verifique sua caixa de mensagens para detalhes",
+        "email-out-of-mailing-list": "o :email não está mais na lista de emails",
+        "email-already-in-mailing-list": "o e-mail :email foi adicionado à lista",
+        "password-recovery-successful": "senha recuperada com sucesso!",
+        "recover-password-email-send": "um e-mail com instruções para refazer sua senha foi enviado. Por favor verifique sua caixa de mensagens"
+    },
+    "email-black-list": {
+        "email-out-of-mailing-list": "o e-mail :email não está mais na lista de emails",
+        "email-already-in-mailing-list": "o e-mail :email foi adicionado à lista",
+        "email-not-found": "e-mail não encontrado"
+    },
+    "bank": {
+        "not-found": "bank not found",
+        "total-found": "banco(s) encontados :total",
+        "found": "bank found",
+        "empty-id": "id code of bank not informed"
+    },
+    "bank-account": {
+        "index": "bank account's",
+        "all": "all bank account's registered",
+        "new": "register new bank account",
+        "show": "overview",
+        "form": {
+            "attributes": {
+                "name": "alias for this account",
+                "agency_number": "agency number",
+                "agency_number_digit": "dv",
+                "account_number": "account number",
+                "account_number_digit": "dv",
+                "opening_at": "opening at",
+                "opening_balance": "opening balance",
+                "bank_id": "bank"
+            },
+            "submit": "save"
+        },
+        "dependencie": "this control requires that at least one \"bank account\" be registered",
+        "found": "found",
+        "not-found": "not found",
+        "total-found": "encontrado :total",
+        "created": "bank account created",
+        "updated": "bank account updated",
+        "edit": "edit bank account"
+    },
+    "calendar": {
+        "week-mon-prefix": "seg",
+        "week-sun-prefix": "dom",
+        "week-tue-prefix": "ter",
+        "week-wed-prefix": "qua",
+        "week-thu-prefix": "qui",
+        "week-fri-prefix": "sex",
+        "week-sat-prefix": "sab",
+        "month-jan-prefix": "jan",
+        "month-feb-prefix": "fev",
+        "month-mar-prefix": "mar",
+        "month-apr-prefix": "abr",
+        "month-may-prefix": "mai",
+        "month-jun-prefix": "jun",
+        "month-jul-prefix": "jul",
+        "month-aug-prefix": "ago",
+        "month-sep-prefix": "set",
+        "month-out-prefix": "out",
+        "month-nov-prefix": "nov",
+        "month-dec-prefix": "dez",
+        "month-jan-name": "janeiro",
+        "month-feb-name": "fevereiro",
+        "month-mar-name": "março",
+        "month-apr-name": "abril",
+        "month-may-name": "maio",
+        "month-jun-name": "junho",
+        "month-jul-name": "julho",
+        "month-aug-name": "agosto",
+        "month-sep-name": "setembro",
+        "month-out-name": "outubro",
+        "month-nov-name": "novembro",
+        "month-dec-name": "dezembro"
+    },
+    "certificate": {
+        "national-code-incorrect": "cnpj do certificado não correspode ao da sessão",
+        "certificate-expired": "certificado vencido",
+        "certificate-updated": "certificado atualizado",
+        "not-found": "certificado não encontrado",
+        "country-not-allowed": "país não permitido",
+        "invalid-password": "senha inválida",
+        "already-exists": "certificado já existe",
+        "found": "certificado encontrado",
+        "created": "certificado enviado ao servidor com sucesso",
+        "done-centificate-found": "feito, certificado encontrado",
+        "done-centificate-not-found": "feito, certificado não encontrado"
+    },
+    "common": {
+        "created_at": "criado em",
+        "updated_at": "atualizado em",
+        "log": "log",
+        "title": "título",
+        "description": "descrição",
+        "subject": "assunto",
+        "done": "feito",
+        "add": "adicionar",
+        "location": "localização",
+        "with": "com",
+        "email": "e-mail",
+        "main": "página principal",
+        "me": "eu",
+        "agenda": "agenda",
+        "my": "meu",
+        "schedule": "minha agenda",
+        "tasks": "tarefas",
+        "task": "tarefa",
+        "index": "índice",
+        "address": "endereço",
+        "data": "data",
+        "follow-up": "follow up",
+        "scheduling": "agendando",
+        "dd\/mm\/yyyy": "dd\/mm\/aaaa",
+        "yyyy-mm-dd": "aaaa-mm-dd",
+        "new": "novo",
+        "more": "mais",
+        "options": "opções",
+        "week": "essa semana",
+        "year": "ano",
+        "month": "mês",
+        "current": "esse mês",
+        "my-favorites": "meus favoritos",
+        "search": "pesquisar",
+        "edit": "editar",
+        "update": "atualizar",
+        "timezone": "time zone",
+        "date-format": "formato de data",
+        "input-date-format": "formate o tipo da data de entrada",
+        "language": "idioma",
+        "log-in": "entrar",
+        "log-in-submit": "entrar",
+        "home": "home",
+        "log-out": "sair",
+        "welcome": "bem vindo",
+        "loading": "carregando",
+        "quotation": "cotação",
+        "change-language": "mudar idioma",
+        "english": "inglês",
+        "portuguese": "português",
+        "spanish": "espanhol",
+        "server-side-datetime": "hora do servidor",
+        "client-side-datetime": "hora local",
+        "hi": "Oi",
+        "hello": "Olá",
+        "mail": {
+            "invite-user": {
+                "title": "O :name está te convidando para o aplicativo :app",
+                "text": "O :name convidou você para o aplicativo :app",
+                "button": "Aceite o convite"
+            },
+            "user-welcome": {
+                "title": "Bem vindo",
+                "text": "Bem vindo ao aplicativo :app",
+                "button": "Mostre"
+            },
+            "user-confirm-email": {
+                "title": "Confirme seu e-mail",
+                "text": "Por favor, confirme seu e-mail para continuar",
+                "button": "Verifique meu e-mail"
+            },
+            "user-email-confirmed": {
+                "title": "Obrigado por confirmar seu e-mail :name",
+                "text": "Você confirmou seu e-mail. Obrigado!",
+                "button": "Adiante!"
+            },
+            "user-recover-password": {
+                "title": "Troca de senha solicitada",
+                "text": "Você solicitou a troca de senha da sua conta. Se não foi você, desconsidere",
+                "button": "Trocar minha senha"
+            },
+            "user-password-changed": {
+                "title": "Sua senha foi atualizada",
+                "text": "Sua senha foi atualizada",
+                "button": "Ok"
+            },
+            "certificate-notify": {
+                "title": "Certificado está perto da data de vencimento",
+                "text-one": "O certificado da empresa :name está perto da data de vencimento, :valid_to. O sistema não aceita certificado expirado.",
+                "text-two": "Se já possui o novo certificado acesse o sistema e realize o upload."
+            },
+            "certificate-notify-expired": {
+                "title": "Certificado está com a data expirada",
+                "text-one": "O certificado da empresa :name está está com a data expirada, :valid_to. O sistema não aceita certificado expirado.",
+                "text-two": "Se já possui o novo certificado acesse o sistema e realize o upload."
+            },
+            "order-created": {
+                "title": "Seu pedido foi recebido :name",
+                "title-order": "Numero do pedido :id",  
+                "title-payment": "Pagamento via :name",                 
+                "text-one": "Obrigado por comprar :app. Os detalhes do pedido encontram-se abaixo:",
+                "text-two": "Seu pedido foi criado em :created_at",
+                "text-tre": "Obs: O :app está liberado para o uso",
+                "text-item": ":description R$: :amount - quantidade :quantity",
+                "text-total": "Total R$: :amount_total"
+            },
+            "order-complete": {
+                "title": "Seu pedido foi finalizado :name",
+                "title-order": "Numero do pedido :id",  
+                "title-payment": "Pagamento via :name",                 
+                "text-one": "Obrigado por comprar :app. Os detalhes do pedido encontram-se abaixo:",
+                "text-two": "Seu pedido foi criado em :created_at",
+                "text-item": ":description R$: :amount - quantidade :quantity",
+                "text-total": "Total R$: :amount_total"
+            },
+            "order-failed": {
+                "title": "Houve um erro com seu pedido",
+                "title-order": "Numero do pedido :id",  
+                "title-payment": "Pagamento via :name",                 
+                "text-one": "Ops, ocorreu um erro com a compra do :app. Os detalhes do pedido encontram-se abaixo:",
+                "text-two": "Seu pedido foi criado em :created_at",
+                "text-tre": "Obs: Realize a compra do :app novamente.",
+                "text-item": ":description R$: :amount - quantidade :quantity",
+                "text-total": "Total R$: :amount_total"
+            },
+            "budget-created": {
+                "title": "Seu orçamento foi recebido :id",
+                "text-one": "Obrigado por solicitar orçamento. Logo logo entraremos em contato.",
+                "footer": "LogADM, Favor não responder esté e-mail"
+            },
+            "budget-reply": {
+                "title": "Resposta do orçamento :id",
+                "text-one": "Sou :name, representante do Log, estou respondendo seu orçamento id :id criado em :created_at",
+                "text-two": ":records",
+                "footer": "LogADM, Favor responder esté e-mail"
+            },
+            "budget-accept": {
+                "title": "Link do orçamento :id",
+                "text-one": "Numero do pedido :id criado em :created_at",  
+                "text-two": "Segue abaixo o link para o pagamento do novo plano",
+                "text-tree": ":link"
+            },
+            "budget-denied": {
+                "title": "Orçamento fechado :id",
+                "text-one": "Numero do pedido :id criado em :created_at",  
+                "text-two": "Seu orçamento foi fechado"
+            },
+            "unsubscribe": "descadastrar"
+        }
+    },
+    "change-password": {
+        "invalid-encryption": "senha inválida",
+        "invalid-password": "senha inválida",
+        "password-changed-successful": "senha trocada com sucesso"
+    },
+    "country": {
+        "not-found": "país não encontrado",
+        "total-found": ":total país encontrado",
+        "found": "país encontrado",
+        "empty-id": "código do país não informado",
+        "brazil": "brasil",
+        "united states": "estados unidos",
+        "canada": "canadá"
+    },
+    "currency": {
+        "not-found": "moeda não encontrada",
+        "total-found": ":total moeda encontrada",
+        "found": "moeda encontrada",
+        "empty-id": "o código da moeda não foi informado"
+    },
+    "currency-quote": {
+        "updated": "atualizado",
+        "not-found": "cotação em moeda não encontrado",
+        "total-found": ":total cotação em moeda encontrada",
+        "found": "cotação em moeda encontrado",
+        "empty-id": "id de identificação da cotação da moeda não informado"
+    },
+    "email": {
+        "created": "registrado com sucesso",
+        "updated": "atualizado com sucesso",
+        "the-same": "é o mesmo",
+        "not-found": "e-mail não encontrado",
+        "found": "e-mail encontrado",
+        "total-found": "e-mail encontrado(s) :total",
+        "empty-id": "código do e-mail não informado",
+        "exists": "e-mail já existe",
+        "form": {
+            "attributes": {
+                "email": "e-mail"
+            },
+            "submit": "salvar"
+        },
+        "title": "e-mail",
+        "add": "adicione novo e-mail",
+        "edit": "editar e-mail"
+    },
+    "enterprise": {
+        "not-linked": "não vinculado",
+        "server-error": "erro de servidor",
+        "no-parameter": "nenhum parâmetro",
+        "incorrect": "empresa incorreta",
+        "created": "empresa registrada com sucesso",
+        "updated": "empresa atualizada com sucesso",
+        "deactivated": "empresa desativada com sucesso",
+        "activated": "empresa ativada com sucesso",
+        "no-disable": "empresa já desativado",
+        "no-enable": "empresa já ativado",
+        "not-found": "empresa não encontrada",
+        "total-found": "empresa encontrada :total",
+        "found": "empresa encontrada",
+        "empty-id": "código da empresa não informado",
+        "exists": "empresa já existe",
+        "user-enterprise-already-exist": "o usuário já tem essa empresa",
+        "new": "registrar nova empresa",
+        "index": "empresas",
+        "show": "visão geral",
+        "title": "todos os dados da empresa",
+        "edit": "editar dados desta empresa",
+        "all": "todas as empresas",
+        "disable": "desabilitar esta empresa",
+        "enable": "habilitar esta empresa",
+        "form": {
+            "attributes": {
+                "national_code": "Código Nacional/CNPJ",
+                "country_id": "País",
+                "enterprise_id": "id",
+                "name": "Razão Social",
+                "fantasy_name": "Nome fantasia",
+                "is_matrix": "é matriz",
+                "legal_nature": "Natureza jurídica",
+                "last_update": "Última atualização",
+                "is_active": "Ativa"
+            },
+            "submit": "salvar"
+        },
+        "indicator": "empresas"
+    },
+    "enterprise-person": {
+        "title": "pessoas",
+        "form": {
+            "attributes": {
+                "name": "nome",
+                "description": "descrição"
+            },
+            "submit": "salvar"
+        }
+    },
+    "expense": {
+        "created": "expense created successfully",
+        "updated": "expense updated successfully",
+        "found": "expense found",
+        "not-found": "expense not found",
+        "total-found": ":total expense found",
+        "index": "expense's",
+        "all": "all expense's registered",
+        "new": "add new expense",
+        "show": "overview",
+        "enable": "enable this expense",
+        "disable": "disable this expense",
+        "close": "mark as payment",
+        "form": {
+            "attributes": {
+                "name": "alias for this expense",
+                "description": "description for this expense",
+                "user_id": "user",
+                "bank_account_id": "bebit bank account",
+                "currency_id": "currency",
+                "amount": "amount",
+                "due_date_at": "due date at"
+            },
+            "submit": "save"
+        },
+        "edit": "edit this expense"
+    },
+    "follow": {
+        "exists": "existe",
+        "created": "adicionado",
+        "disabled": "desabilitado",
+        "follow": "seguir",
+        "following": "seguindo"
+    },
+    "follow-up": {
+        "created": "adicionado",
+        "updated": "atualizado",
+        "total-found": ":total linhas encontradas",
+        "form": {
+            "submit": "adicionar"
+        },
+        "post": "adicionou um follow up",
+        "placeholder": "adicionar um follow up aqui..."
+    },
+    "follow-up-reason": {
+        "follow-up-reason-not-found": "razão não encontada",
+        "total-found": "linhas encontradas :total",
+        "undefined": "indefinido",
+        "relationship": "relacionamento",
+        "registry update": "registrar uma atualização",
+        "annotation": "anotação"
+    },
+    "invite-user": {
+        "index": "abrir convites",
+        "form": {
+            "attributes": {
+                "name": "nome",
+                "email": "e-mail"
+            },
+            "submit": "enviar convite"
+        },
+        "already-exists": "pedido já existe",
+        "send": "pedido enviado com sucesso",
+        "found": "pedido encontrado",
+        "not-found": "pedido não encontrado",
+        "deleted": "pedido excluído com sucesso",
+        "open": "abrir convites",
+        "new": "convidar usuário",
+        "request-not-found": "pedido não encontrado",
+        "shared-successful": "compartilhado com sucesso"
+    },
+    "issue": {
+        "created": "pedido adicionado com sucesso",
+        "not-found": "problema não encontrado",
+        "found": "problema encontrado",
+        "notification": {
+            "user": {
+                "text": "Verifique abaixo os detalhes do seu pedido:",
+                "title": "Confirmação de recebimento do pedido #:id",
+                "extra": "Seu pedido será atendido pela nossa equipe e em até 2 horas você será notificado pelo suporte técnico."
+            },
+            "support": {
+                "text": "Cerifique abaixo os detalhes do seu pedido:",
+                "title": "[#:id][:app] novo suporte solicitado",
+                "extra": "Este pedido deverá ser respondido em até duas horas."
+            }
+        },
+        "type-not-found": "tipo de problema não encontrado",
+        "status-not-found": "situação do problema não encontrada",
+        "new": "novo",
+        "pending": "pendente",
+        "in-progress": "em andamento",
+        "feedback": "comentário",
+        "closed": "fechado",
+        "closed-without-service": "fechado sem serviço"
+    },
+    "lead": {
+        "created": "registrado com sucesso",
+        "updated": "atualizado com sucesso",
+        "deactivated": "desativado com sucesso",
+        "activated": "ativado com sucesso",
+        "no-disable": "já desativado",
+        "no-enable": "já ativado",
+        "not-found": "pessoa não encontrada",
+        "total-found": ":total pessoa não encontrada",
+        "found": "pessoa encontrada",
+        "empty-id": "identificação da pessoa não informada"
+    },
+    "log": {
+        "created": "adicionado",
+        "total-found": "total encontrado :total",
+        "updated-email": "e-mail :from atualizado para :to",
+        "created-email": "adicionado e-mail :email",
+        "updated-phone": "número de telefone :from atualizado para :to",
+        "created-phone": "adicionado número de telefone :phone"
+    },
+    "me": {
+        "title": "minha conta",
+        "edit": "editar minha conta",
+        "index": "minha conta",
+        "page": "mostrar os dados da minha conta",
+        "user-settings": "minhas configurações",
+        "user-info": "minhas informações",
+        "show": "visão geral",
+        "updated": "Suas configurações foram salvas."
+    },
+    "network": {
+        "created": "registrado com sucesso",
+        "updated": "atualizado com sucesso",
+        "not-found": "rede não encontrada",
+        "found": "rede encontrada",
+        "total-found": "redes encontradas :total",
+        "empty-id": "código da rede não informado",
+        "exists": "rede já existe",
+        "add": "adicionar nova url de rede",
+        "edit": "editar url de rede"
+    },
+    "person": {
+        "created": "registrado com sucesso",
+        "updated": "atualizado com sucesso",
+        "deactivated": "desativado com sucesso",
+        "activated": "ativado com sucesso",
+        "no-disable": "já desativado",
+        "no-enable": "já ativado",
+        "not-found": "pessoa não encontrada",
+        "total-found": ":total pessoas encontradas",
+        "found": "pessoa encontrada",
+        "empty-id": "código da pessoa não informado",
+        "add": "adicionar novo contato",
+        "edit": "editar número do contato"
+    },
+    "phone": {
+        "created": "registrado com sucesso",
+        "updated": "atualizado com sucesso",
+        "not-found": "telefone não encontrado",
+        "found": "telefone encontrado",
+        "total-found": "telefones encontrados :total",
+        "empty-id": "código do telefone não encontrado",
+        "exists": "telefone já existe",
+        "add": "adicionar novo telefone",
+        "edit": "editar telefone",
+        "form": {
+            "attributes": {
+                "arm": "ramal",
+                "long_distance": "longa distância",
+                "international_code": "código internacional",
+                "number": "número"
+            },
+            "submit": "salvar"
+        },
+        "title": "telefones"
+    },
+    "request": {
+        "method-not-allowed": "method not allowed"
+    },
+    "recover-password": {
+        "pending-request": "existe um pedido pendente",
+        "request-expired": "pedido expirado",
+        "person-not-found": "pessoa não encontrada",
+        "error": "houve um erro, tente novamente",
+        "password-changed-successful": "senha trocada com sucesso",
+        "password-recovery-successful": "Senha recuperada com sucesso!",
+        "recover-password-email-send": "Um email com instruções para refazer sua senha foi enviado. Verifique sua caixa de mensagens"
+    },
+    "schedule": {
+        "schedule": "agenda",
+        "index": "minha agenda"
+    },
+    "scheduling": {
+        "created": "adicionado",
+        "new": "novo agendamento",
+        "post": "adicionado em",
+        "form": {
+            "submit": "adicionar"
+        }
+    },
+    "services": {
+        "index": "serviços",
+        "send": ":total de e-mails de notificação enviados com êxito",
+        "schedule": "enviar e-mails de notificação de programação do usuário"
+    },
+    "plan": {
+        "found": "plano encontrado",
+        "not-found": "plano não encontrado"
+    },
+    "plan-additional": {
+        "found": "plano adicional encontrado",
+        "not-found": "plano adicional não encontrado"
+    },
+    "user-plan": {
+        "created": "plano do usuário criado",
+        "found": "plano do usuário encontrado",
+        "not-found": "plano do usuário não encontrado"
+    },
+    "expiration-plan": {
+        "created": "expiração do plano criado",
+        "found": "expiração do plano encontrado",
+        "updated": "expiração do plano atualizado",
+        "not-found": "expiração do plano não encontrado",
+        "already-exists": "expiração do plano já existe"
+    },
+    "budget": {
+        "created": "requisição de orçamento criada",
+        "updated": "requisição de orçamento atualizado",
+        "already-exists": "requisição de orçamento ja éxiste",
+        "found": "requisição de orçamento encontrado",
+        "not-found": "requisição de orçamento não encontrado"
+    },
+    "user-birth": {
+        "created": "data de nascimento criada",
+        "updated": "data de nascimento atualizado",
+        "already-exists": "data de nascimento ja éxiste",
+        "found": "data de nascimento encontrado",
+        "not-found": "data de nascimento não encontrado"
+    },
+    "promotion": {
+        "created": "promoção criada",
+        "updated": "promoção atualizado",
+        "already-exists": "promoção ja éxiste",
+        "found": "promoção encontrada",
+        "not-found": "promoção não encontrada",
+        "canceled": "promoção cancelada",
+        "not-approved": "promoção não aprovada"
+    },
+    "setup": {
+        "index": "configuração",
+        "cache-cleared": "cache cancelado",
+        "clear-cache": "limpe todos os dados em cache agora"
+    },
+    "support": {
+        "index": "suporte",
+        "welcome": "Bem vindo ao suporte",
+        "pending": "pendente",
+        "in-progress": "em andamento",
+        "closed": "fechado",
+        "request-open-successful": "um ticket foi aberto com seu pedido. Verifique sua caixa de mensagens para mais detalhes"
+    },
+    "user": {
+        "found": "usuário encontrado",
+        "not-found": "usuário não encontrado",
+        "index": "todos os usuários",
+        "edit": "editar dados da conta deste usuário",
+        "show": "visão geral",
+        "form": {
+            "attributes": {
+                "name": "nome",
+                "email": "email",
+                "password": "senha",
+                "confirm_password": "confirmar senha"
+            },
+            "submit": "enviar"
+        },
+        "new-account": "crie sua conta agora",
+        "fill-form": "preencha as informações abaixo",
+        "email-available": "e-mail :email disponível",
+        "email-unavailable": "e-mail indisponível",
+        "email-send": "e-mail enviado com sucesso",
+        "check-your-email": "e-mail de confirmação de registro foi enviado, verifique sua caixa de mensagens",
+        "already-disabled": "o usuário já está desabilitado",
+        "not-used": "não usado",
+        "disabled": "usuário desabilitado",
+        "not-disabled": "não desabilitado",
+        "enabled": "usuário habilitado"
+    },
+    "user-app": {
+        "created": "conta vinculada com sucesso",
+        "already-exists": "conta já está vinculada ao aplicativo",
+        "not-found": "aplicativo não encontrado",
+        "found": "aplicativo encontrado"
+    },
+    "user-notification": {
+        "created": "adicionado",
+        "updated": "atualizado",
+        "found": "encontrado",
+        "already-exists": "já existe"
+    },
+    "user-session": {
+        "not-found": "sessão não encontrada",
+        "total-found": ":total sessões",
+        "found": "sessão encontrada",
+        "empty-id": "código da sessão não informado"
+    },
+    "user-settings": {
+        "update": "atualizar",
+        "not-found": "configurações do usuário não encontradas",
+        "found": "configurações do usuário encontradas"
+    },
+    "user-enterprise": {
+        "not-found": "usuário/empresa não encontrada",
+        "relation-already-found": "relação já existe",
+        "created": "relação criada",
+        "total-found": "total encontrada",
+        "activated": "ativada",
+        "not-linked": "usuário/empresa não vinculado",
+        "found": "usuário/empresa encontrada",
+        "not-actived": "relação usuário/empresa não ativada"
+    },
+    "user-invite": {
+        "send": "convite enviado",
+        "created": "convite enviado",
+        "already-exists": "convite já existe",
+        "already-exists-confirmed": "convite já está confirmado",
+        "updated": "convite atualizado",
+        "not-found": "convite não encontrado",
+        "disable": "convite desativado",
+        "deleted": "convite deletado",
+        "found": "convite encontrado"
+    },
+    "user-equal": {
+        "created": "compartilhamento registrado",
+        "already-exists": "compartilhamento já existe",
+        "token-not-found": "token inválido ou inexistente",
+        "not-found": "compartilhamento não encontrado",
+        "found": "compartilhamento encontrado",
+        "disable": "compartilhamento desabilitado"
+    },
+    "user-partner": {
+        "created": "parceiro registrado",
+        "already-exists": "parceiro já existe",
+        "token-not-found": "token inválido ou inexistente",
+        "not-found": "parceiro não encontrado",
+        "found": "parceiro encontrado",
+        "disable": "parceiro desabilitado",
+        "updated": "parceiro atualizada"
+    },
+    "user-client": {
+        "created": "cliente registrado",
+        "already-exists": "cliente já existe",
+        "token-not-found": "token inválido ou inexistente",
+        "not-found": "cliente não encontrado",
+        "found": "cliente encontrado",
+        "disable": "cliente desabilitado"
+    },
+    "user-administrator": {
+        "created": "administrador registrado",
+        "already-exists": "administrador já existe",
+        "not-found": "administrador não encontrado",
+        "found": "administrador encontrado",
+        "disable": "administrador desabilitado"
+    },
+    "user-equal-permission": {
+        "created": "permissão criada",
+        "already-exists": "permissão já existe",
+        "updated": "permissão atualizada",
+        "not-found": "permissão não encontrada",
+        "deleted": "permissão desabilitada",
+        "found": "permissão encontrada"
+    },
+    "order": {
+        "created": "ordem criada",
+        "already-exists": "ordem já existe",
+        "not-found": "ordem não encontrada",
+        "found": "ordem encontrada",
+        "updated": "ordem atualizada",
+        "disable": "ordem desabilitada"
+    },
+    "order-item": {
+        "created": "ordem item criada",
+        "already-exists": "ordem item já existe",
+        "not-found": "ordem item não encontrada",
+        "found": "ordem item encontrada",
+        "disable": "ordem item desabilitada"
+    },
+    "order-payment": {
+        "created": "ordem payment criada",
+        "already-exists": "ordem payment já existe",
+        "not-found": "ordem payment não encontrada",
+        "found": "ordem payment encontrada",
+        "disable": "ordem payment desabilitada"
+    },
+    "pag-seguro": {
+        "created": "pagseguro criada",
+        "already-exists": "pagseguro já existe",
+        "not-found": "pagseguro não encontrada",
+        "found": "pagseguro encontrada",
+        "disable": "pagseguro desabilitada"
+    },
+    "pag-seguro-notification": {
+        "created": "notification pagseguro criada",
+        "already-exists": "notification pagseguro já existe",
+        "not-found": "notification pagseguro não encontrada",
+        "found": "notification pagseguro encontrada",
+        "disable": "notification pagseguro desabilitada"
+    },
+    "pag-seguro-transaction": {
+        "created": "transaction pagseguro criada",
+        "already-exists": "transaction pagseguro já existe",
+        "not-found": "transaction pagseguro não encontrada",
+        "found": "transaction pagseguro encontrada",
+        "disable": "transaction pagseguro desabilitada"
+    },
+    "welcome": {
+        "index": "bem vindo"
+    }
+}

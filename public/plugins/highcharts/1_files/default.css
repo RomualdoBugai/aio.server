@@ -1,0 +1,97 @@
+.menu {
+	box-shadow: none !important
+}
+
+.cliente-cadastro-invalido {
+	/*background: #222 !important*/
+}
+
+.cliente-cadastro-invalido .header:after {
+	font-family: 'fontello';
+	content: '\e952';
+	margin-left: 10px;
+	color: #db2828
+}
+
+
+/* cliente index */
+#cliente-index-lista-de-cliente .item {
+	
+}
+
+.ui.vertical.tabular.menu .item.active,
+.ui.tabular.menu .item.active {
+	border-radius: 0 !important;
+}
+
+#cliente-index-pagina-acao a {
+    margin: 0 0 0 1px;
+    border-radius: 3px !important
+}    
+
+#cliente-header #avatar {
+    margin-top: -40px;
+    margin-left: 0px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 32px;
+    width: 52px;
+    height: 52px;
+    color: #222;
+    border-radius: 3px !important;
+}
+
+#cliente-header {
+    margin-top: 40px;
+    background: #222;
+    min-width: 100% !important;
+    text-align: left;
+    color: #fff;
+    padding: 10px 10px 24px 20px;
+}
+
+
+
+.cliente-historico .cliente-historico-com-destaque
+{
+    width: 100% !important;
+    display: table;
+}
+
+.cliente-historico .cliente-historico-com-destaque .avatar i
+{
+
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    width: 36px;
+    height: 36px;
+    color: #fff;
+    background: #222;
+    border-radius: 3px !important;
+}
+
+.cliente-historico .cliente-historico-sem-destaque .avatar i
+{
+    line-height: 22px;
+    text-align: center;
+    font-size: 10px;
+    width: 22px;
+    height: 22px;
+    color: #fff;
+    background: #aaa;
+    border-radius: 3px !important;
+}
+
+
+.section-icon-header
+{
+    width: 66px;
+    height: 66px;
+    border-radius: 3px !important;
+    background: #222;
+    color: #fff;    
+    line-height: 66px !important;
+    font-size: 32px;
+    text-align: center;
+}
